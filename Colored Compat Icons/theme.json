@@ -110,8 +110,8 @@
         "White": {
           "playableIcon/white.css": ["SP"]
         },
-        "Yellow": {
-          "playableIcon/yellow.css": ["SP"]
+        "Green": {
+          "playableIcon/green.css": ["SP"]
         }
       }
     },
@@ -143,8 +143,8 @@
         "Red": {
           "unsupportedIcon/red.css": ["SP"]
         },
-        "White": {
-          "unsupportedIcon/white.css": ["SP"]
+        "Green": {
+          "unsupportedIcon/green.css": ["SP"]
         },
         "Yellow": {
           "unsupportedIcon/yellow.css": ["SP"]
@@ -179,8 +179,8 @@
         "Red": {
           "unknownIcon/red.css": ["SP"]
         },
-        "White": {
-          "unknownIcon/white.css": ["SP"]
+        "Green": {
+          "unknownIcon/green.css": ["SP"]
         },
         "Yellow": {
           "unknownIcon/yellow.css": ["SP"]
