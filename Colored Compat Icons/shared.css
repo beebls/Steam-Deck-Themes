@@ -1,0 +1,24 @@
+/* This is the little steam deck logo next to the compatibility icon */
+.shared_svg_library_SteamDeckCompatLogo_Tplfb path {
+  fill: var(--custom-compat-icons-deck);
+}
+
+/* Verified Icon */
+.shared_svg_library_SteamDeckCompatIcon_2hEWY.shared_svg_library_SteamDeckCompatVerified_3mvZq.shared_svg_library_SteamDeckCompatIcon_2hEWY {
+  color: var(--custom-compat-icons-verified);
+}
+
+/* Playable Icon */
+.shared_svg_library_SteamDeckCompatIcon_2hEWY.shared_svg_library_SteamDeckCompatPlayable_S7BDm.shared_svg_library_SteamDeckCompatIcon_2hEWY {
+  color: var(--custom-compat-icons-playable);
+}
+
+/* Unsupported Icon */
+.shared_svg_library_SteamDeckCompatIcon_2hEWY.shared_svg_library_SteamDeckCompatUnsupported_1SeOP.shared_svg_library_SteamDeckCompatIcon_2hEWY {
+  color: var(--custom-compat-icons-unsupported);
+}
+
+/* Unknown Icon */
+.shared_svg_library_SteamDeckCompatIcon_2hEWY.shared_svg_library_SteamDeckCompatUnknown_15dEs.shared_svg_library_SteamDeckCompatIcon_2hEWY {
+  color: var(--custom-compat-icons-unknown);
+}

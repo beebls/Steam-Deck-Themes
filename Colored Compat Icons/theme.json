@@ -1,0 +1,191 @@
+{
+  "name": "Custom Compatibility Icons",
+  "author": "Crush & Beebles",
+  "target": "Library",
+  "manifest_version": 2,
+  "inject": {
+    "shared.css": ["SP"]
+  },
+  "patches": {
+    "Deck Icon Color": {
+      "default": "Standard",
+      "type": "dropdown",
+      "values": {
+        "Standard": {
+          "deckIcon/standard.css": ["SP"]
+        },
+        "Pink": {
+          "deckIcon/pink.css": ["SP"]
+        },
+        "Black": {
+          "deckIcon/black.css": ["SP"]
+        },
+        "Green": {
+          "deckIcon/green.css": ["SP"]
+        },
+        "Navy": {
+          "deckIcon/navy.css": ["SP"]
+        },
+        "Orange": {
+          "deckIcon/orange.css": ["SP"]
+        },
+        "Purple": {
+          "deckIcon/purple.css": ["SP"]
+        },
+        "Red": {
+          "deckIcon/red.css": ["SP"]
+        },
+        "Teal": {
+          "deckIcon/teal.css": ["SP"]
+        },
+        "Yellow": {
+          "deckIcon/yellow.css": ["SP"]
+        }
+      }
+    },
+    "Verified Icon Color": {
+      "default": "Standard",
+      "type": "dropdown",
+      "values": {
+        "Standard": {
+          "verifiedIcon/standard.css": ["SP"]
+        },
+        "Teal": {
+          "verifiedIcon/teal.css": ["SP"]
+        },
+        "Pink": {
+          "verifiedIcon/pink.css": ["SP"]
+        },
+        "Black": {
+          "verifiedIcon/black.css": ["SP"]
+        },
+        "Navy": {
+          "verifiedIcon/navy.css": ["SP"]
+        },
+        "Orange": {
+          "verifiedIcon/orange.css": ["SP"]
+        },
+        "Purple": {
+          "verifiedIcon/purple.css": ["SP"]
+        },
+        "Red": {
+          "verifiedIcon/red.css": ["SP"]
+        },
+        "White": {
+          "verifiedIcon/white.css": ["SP"]
+        },
+        "Yellow": {
+          "verifiedIcon/yellow.css": ["SP"]
+        }
+      }
+    },
+    "Playable Icon Color": {
+      "default": "Standard",
+      "type": "dropdown",
+      "values": {
+        "Standard": {
+          "playableIcon/standard.css": ["SP"]
+        },
+        "Teal": {
+          "playableIcon/teal.css": ["SP"]
+        },
+        "Pink": {
+          "playableIcon/pink.css": ["SP"]
+        },
+        "Black": {
+          "playableIcon/black.css": ["SP"]
+        },
+        "Navy": {
+          "playableIcon/navy.css": ["SP"]
+        },
+        "Orange": {
+          "playableIcon/orange.css": ["SP"]
+        },
+        "Purple": {
+          "playableIcon/purple.css": ["SP"]
+        },
+        "Red": {
+          "playableIcon/red.css": ["SP"]
+        },
+        "White": {
+          "playableIcon/white.css": ["SP"]
+        },
+        "Yellow": {
+          "playableIcon/yellow.css": ["SP"]
+        }
+      }
+    },
+    "Unsupported Icon Color": {
+      "default": "Standard",
+      "type": "dropdown",
+      "values": {
+        "Standard": {
+          "unsupportedIcon/standard.css": ["SP"]
+        },
+        "Teal": {
+          "unsupportedIcon/teal.css": ["SP"]
+        },
+        "Pink": {
+          "unsupportedIcon/pink.css": ["SP"]
+        },
+        "Black": {
+          "unsupportedIcon/black.css": ["SP"]
+        },
+        "Navy": {
+          "unsupportedIcon/navy.css": ["SP"]
+        },
+        "Orange": {
+          "unsupportedIcon/orange.css": ["SP"]
+        },
+        "Purple": {
+          "unsupportedIcon/purple.css": ["SP"]
+        },
+        "Red": {
+          "unsupportedIcon/red.css": ["SP"]
+        },
+        "White": {
+          "unsupportedIcon/white.css": ["SP"]
+        },
+        "Yellow": {
+          "unsupportedIcon/yellow.css": ["SP"]
+        }
+      }
+    },
+    "Unknown Icon Color": {
+      "default": "Standard",
+      "type": "dropdown",
+      "values": {
+        "Standard": {
+          "unknownIcon/standard.css": ["SP"]
+        },
+        "Teal": {
+          "unknownIcon/teal.css": ["SP"]
+        },
+        "Pink": {
+          "unknownIcon/pink.css": ["SP"]
+        },
+        "Black": {
+          "unknownIcon/black.css": ["SP"]
+        },
+        "Navy": {
+          "unknownIcon/navy.css": ["SP"]
+        },
+        "Orange": {
+          "unknownIcon/orange.css": ["SP"]
+        },
+        "Purple": {
+          "unknownIcon/purple.css": ["SP"]
+        },
+        "Red": {
+          "unknownIcon/red.css": ["SP"]
+        },
+        "White": {
+          "unknownIcon/white.css": ["SP"]
+        },
+        "Yellow": {
+          "unknownIcon/yellow.css": ["SP"]
+        }
+      }
+    }
+  }
+}
