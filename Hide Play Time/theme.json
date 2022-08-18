@@ -1,0 +1,9 @@
+{
+  "name": "Hide Play Time",
+  "author": "Beebles",
+  "target": "Library",
+  "manifest_version": 2,
+  "inject": {
+    "shared.css": ["SP"]
+  }
+}
