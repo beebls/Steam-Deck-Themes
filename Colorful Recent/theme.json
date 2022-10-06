@@ -5,72 +5,101 @@
   "inject": {
     "shared.css": ["SP"]
   },
+  "manifest_version": 3,
   "patches": {
     "Top Color": {
-      "default": "Pink",
-      "Pink": {
-        "firstColors/pink.css": ["SP"]
+      "default": "Custom",
+      "type": "dropdown",
+      "values": {
+        "Custom": {},
+        "Pink": {
+          "firstColors/pink.css": ["SP"]
+        },
+        "Black": {
+          "firstColors/black.css": ["SP"]
+        },
+        "Green": {
+          "firstColors/green.css": ["SP"]
+        },
+        "Navy": {
+          "firstColors/navy.css": ["SP"]
+        },
+        "Orange": {
+          "firstColors/orange.css": ["SP"]
+        },
+        "Purple": {
+          "firstColors/purple.css": ["SP"]
+        },
+        "Red": {
+          "firstColors/red.css": ["SP"]
+        },
+        "Teal": {
+          "firstColors/teal.css": ["SP"]
+        },
+        "White": {
+          "firstColors/white.css": ["SP"]
+        },
+        "Yellow": {
+          "firstColors/yellow.css": ["SP"]
+        }
       },
-      "Black": {
-        "firstColors/black.css": ["SP"]
-      },
-      "Green": {
-        "firstColors/green.css": ["SP"]
-      },
-      "Navy": {
-        "firstColors/navy.css": ["SP"]
-      },
-      "Orange": {
-        "firstColors/orange.css": ["SP"]
-      },
-      "Purple": {
-        "firstColors/purple.css": ["SP"]
-      },
-      "Red": {
-        "firstColors/red.css": ["SP"]
-      },
-      "Teal": {
-        "firstColors/teal.css": ["SP"]
-      },
-      "White": {
-        "firstColors/white.css": ["SP"]
-      },
-      "Yellow": {
-        "firstColors/yellow.css": ["SP"]
-      }
+      "components": [
+        {
+          "name": "Top Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#ff196555",
+          "css_variable": "tlbg-first-color",
+          "tabs": ["SP"]
+        }
+      ]
     },
     "Bottom Color": {
-      "default": "Teal",
-      "Teal": {
-        "lastColors/teal.css": ["SP"]
+      "default": "Custom",
+      "type": "dropdown",
+      "values": {
+        "Custom": {},
+        "Teal": {
+          "lastColors/teal.css": ["SP"]
+        },
+        "Pink": {
+          "lastColors/pink.css": ["SP"]
+        },
+        "Black": {
+          "lastColors/black.css": ["SP"]
+        },
+        "Green": {
+          "lastColors/green.css": ["SP"]
+        },
+        "Navy": {
+          "lastColors/navy.css": ["SP"]
+        },
+        "Orange": {
+          "lastColors/orange.css": ["SP"]
+        },
+        "Purple": {
+          "lastColors/purple.css": ["SP"]
+        },
+        "Red": {
+          "lastColors/red.css": ["SP"]
+        },
+        "White": {
+          "lastColors/white.css": ["SP"]
+        },
+        "Yellow": {
+          "lastColors/yellow.css": ["SP"]
+        }
       },
-      "Pink": {
-        "lastColors/pink.css": ["SP"]
-      },
-      "Black": {
-        "lastColors/black.css": ["SP"]
-      },
-      "Green": {
-        "lastColors/green.css": ["SP"]
-      },
-      "Navy": {
-        "lastColors/navy.css": ["SP"]
-      },
-      "Orange": {
-        "lastColors/orange.css": ["SP"]
-      },
-      "Purple": {
-        "lastColors/purple.css": ["SP"]
-      },
-      "Red": {
-        "lastColors/red.css": ["SP"]
-      },
-      "White": {
-        "lastColors/white.css": ["SP"]
-      },
-      "Yellow": {
-        "lastColors/yellow.css": ["SP"]
-      }
+      "components": [
+        {
+          "name": "Top Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#0ff5",
+          "css_variable": "tlbg-last-color",
+          "tabs": ["SP"]
+        }
+      ]
     }
   }
 }
