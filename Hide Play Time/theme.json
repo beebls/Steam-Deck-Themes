@@ -1,6 +1,7 @@
 {
   "name": "Hide Play Time",
   "author": "Beebles & GrodanBool",
+  "version": "v2.0",
   "target": "Library",
   "manifest_version": 2,
   "patches": {
