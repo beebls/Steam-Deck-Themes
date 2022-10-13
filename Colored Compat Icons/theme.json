@@ -1,6 +1,7 @@
 {
   "name": "Colored Compatibility Icons",
   "author": "Crush & Beebles",
+  "version": "v1.1",
   "target": "Library",
   "inject": {
     "shared.css": ["SP"]

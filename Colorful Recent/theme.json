@@ -1,6 +1,7 @@
 {
   "name": "Colorful Recent",
   "author": "Beebles",
+  "version": "v1.0",
   "target": "Home",
   "inject": {
     "shared.css": ["SP"]
