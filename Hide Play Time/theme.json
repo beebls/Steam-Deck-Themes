@@ -1,9 +1,38 @@
 {
   "name": "Hide Play Time",
-  "author": "Beebles",
+  "author": "Beebles & GrodanBool",
   "target": "Library",
   "manifest_version": 2,
-  "inject": {
-    "shared.css": ["SP"]
+  "patches": {
+    "Hide in Game Details": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "shared.css": [ "SP" ]
+        }
+      }
+    },
+    "Hide on Home Screen": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "hidehome.css": [ "SP" ]
+        }
+      }
+    },
+    "Vertically Center Title": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "topmargin.css": [ "SP" ]
+        }
+      }
+    }
   }
 }
